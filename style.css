@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #dceeff;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  text-align: center;
+}
+
+header {
+  background-color: #003366;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffcc00;
+}
+
+h1, h2 {
+  color: #003366;
+}
+
+img {
+  width: 200px;
+  border-radius: 100px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Section cards */
+.card {
+  background-color: #b3daff;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
